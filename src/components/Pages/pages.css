@@ -1,0 +1,34 @@
+.chichen-itza {
+  background-image: url("/public/images/chichen-itza.jpg");
+}
+.maldives {
+  background-image: url("/public/images/maldives.jpg");
+}
+.petra {
+  background-image: url("/public/images/petra.jpg");
+}
+.prauge {
+  background-image: url("/public/images/prauge.jpg");
+}
+.santorini {
+  background-image: url("/public/images/santorini.jpg");
+}
+.chichen-itza,
+.maldives,
+.petra,
+.prauge,
+.santorini {
+  font-size: 1.5rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.glass-effect {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  z-index: 1 !important;
+  color: aliceblue;
+}
+/* background-image: url("/public/images/chichen-itza.jpg"); */

@@ -1,0 +1,26 @@
+.cards-style {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 1rem;
+  /* width: 33%; */
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+}
+.cards {
+  display: inline-block;
+}
+.cards-style:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.cards-img {
+  height: 18rem;
+  width: 18rem;
+  margin-bottom: 1rem;
+  border-radius: 5px 5px 0 0;
+}
+@media only screen and (max-width: 600px) {
+  .cards-style {
+    width: 80%;
+  }
+}

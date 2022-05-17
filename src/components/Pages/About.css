@@ -1,0 +1,14 @@
+.card img {
+  height: 60vh;
+}
+@media screen and (max-width: 720px) {
+  .card {
+    max-width: 26em !important;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
